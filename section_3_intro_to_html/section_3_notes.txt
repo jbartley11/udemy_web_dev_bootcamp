@@ -1,0 +1,36 @@
+Use MDN
+
+The General Rule
+HTML Tags
+opening tag, content, then closing tag
+<tagName> Content </tagName>
+
+every html document will start with the code in boilerplate.html
+
+<!-- comment -->
+
+Basic Tags
+MDN Element Reference - lists all html elements
+
+header tags h1-h6
+paragraph - p
+both are block level
+
+strong, em - inline
+
+lists
+<ol> - ordered list
+<ul> - unordered list
+<li> - individual items
+
+div and span- MDN
+not that useful until you get to css
+allows you to group things together
+div is a block level element - it will take up its own line
+span is inline level
+
+HTML attributes
+<tag name="value"></tag>
+key and value pair
+<img src="corgi.jpg">
+<a href="url">link text</a>
