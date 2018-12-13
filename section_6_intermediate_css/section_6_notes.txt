@@ -1,0 +1,53 @@
+fonts
+
+what fonts are available?
+every machine is different
+css font stack website
+limited
+
+font-family: Arial;
+can use quotes, esp if it begins with number
+
+font-size
+inspect to change size to test for best fit
+px
+em - relative font size, applies to parent font size
+to double font size use 2.0em, 
+span within paragraph
+em depends on browser, usually 16px
+people will usually set font-size on body tag to a set size in px
+then use em's
+
+font-weight
+how thick
+bold normal
+some fonts allow you to use 100-800, in 100's
+
+line-height
+give number to multiply size
+
+text-align
+left, right, center
+
+text-decoration
+underline, line-through
+
+custom fonts
+google.com/fonts
+add to collection
+only select what you'll use, otherwise it will slow your site down
+use link in head to reference
+
+BOX MODEL
+everything has a box
+margin, border, padding, content
+use margin to add spacing between elements
+set p - height, width
+use pixels, percent
+
+padding
+top, bottom, left, right
+top right bottom left
+top bottom
+center 0 auto
+
