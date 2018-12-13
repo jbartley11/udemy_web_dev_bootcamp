@@ -102,3 +102,14 @@ only changes 3rd li of every ul/only
 Specificity and the cascade
 inheritance and specificity
 if you set color for ul all li's within it will inherit color
+body set to red, everything will be red
+parent to child
+
+specificity
+multiple styles target one element
+whatever style is more specific will within
+
+element -> class -> id -> inline
+go to mdn
+article on how it is specified, assigns numeric value
+specificy calculator
