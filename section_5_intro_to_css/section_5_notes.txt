@@ -1,0 +1,104 @@
+CSS Zen Garden
+
+selector {
+    property: value;
+    anotherproperty: value;
+}
+
+inline
+<h3 style="color:pink;">some text</h3>
+
+in head
+<head>
+    <style type="text/css">
+        li {color:red;}
+        h1 {color:orange;}
+    </style>
+</head>
+
+in separate file - best practice
+<link rel="stylesheet" type="text/css" href="app.css">
+
+colors in css
+built in colors - use name
+colours.neilorangepeel.com
+don't use name!
+
+hexadecimal
+#FF80000
+
+rgb
+rgb(100,0,100)
+
+rgba
+rgba(11,99,150,.2)
+
+background - colors block
+adds image
+background: url(http://...);
+background-repeat: no-repeat;
+background-size: cover;
+
+borders
+has width, style, color
+border-color: purple;
+border-width: 4px;
+border-style: solid;
+
+shorthand:
+border: 5px solid purple;
+
+color - colors text
+
+css selectors
+element, id, class
+
+test css connectivity with background: orange;
+
+id selector
+can only have one unique id per page
+#special
+<li id="special">
+
+class
+.highlight {background: yellow;}
+<li class="highlight">
+
+text-decoration: underline, strikethrough
+
+chrome inspector
+inspect element
+
+types of selectors:
+elements: li
+class: .classname
+id: #idname
+
+30 css selectors you must memorize article
+
+star - applies to every element
+* {}
+
+descendant selector
+select all occurences of an element that is within another element
+li a {}
+all a with li
+ul li a {}
+li .hello {}
+
+adjacent selector
+elements that come after another element
+h4 + ul {}
+first ul after h4
+
+attribute selector
+all elements with specific attribute
+a[href="google.com"]
+
+nth of type
+ul:nth-of-type(3) {}
+only changes 3rd li of every ul/only
+
+Specificity and the cascade
+inheritance and specificity
+if you set color for ul all li's within it will inherit color

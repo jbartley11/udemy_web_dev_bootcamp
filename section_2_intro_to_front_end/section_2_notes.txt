@@ -1,0 +1,39 @@
+use google chrome as browser
+text editor
+
+sublime text
+
+How internet works
+video of a packet's tale video
+
+udemy site
+asking for something, server responds back
+your query is submitted to isp
+isp, uses dns to look up ip address
+a request is sent to ip
+not a direct journey, bounces from server to server
+server forumlates right response
+sends back response
+
+Front end basics
+HTML, CSS, Javascript
+FE vs BE 
+FE is stuff you see and iteract with: HTML, CSS, Javascript
+BE is everything else
+
+HTML
+hypertext markup language
+defines structure of webpage
+the "nouns"
+
+CSS
+Cascading Style Sheets
+defines Style
+the "adjectives"
+
+Javascript
+Adds logic to a page and interactivity
+the "verbs
+
+codepen demo:
+https://codepen.io/Colt/pen/WQQVvE
