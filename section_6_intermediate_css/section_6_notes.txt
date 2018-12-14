@@ -51,3 +51,10 @@ top right bottom left
 top bottom
 center 0 auto
 
+should only have one h1 in page
+
+use combination of max-width and width
+max-width: 700px width 80%
+
+rem for font size
+relative like em, but to root element not parent
