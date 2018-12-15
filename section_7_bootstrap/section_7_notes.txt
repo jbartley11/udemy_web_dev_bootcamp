@@ -1,0 +1,56 @@
+what is bootstrap?
+getbootstrap.com
+
+2 files of css and javascript
+responsive and fast
+helps make good looking sites quickly
+good for backend dev
+
+use bootstrap as baseline then customize it from there
+
+how to dl?
+download locally
+or use cdn - content distribution network
+
+css file is just a lot of classes
+use them in html file to style
+
+use doc
+
+disabled - disables button
+
+forms and inputs
+jumbotron
+will take 100% of container that it is in
+use div with container class to contain jumbotron
+
+form-group - use to group label and input, puts space around it
+form-control on input
+
+form-inline class to make inline form
+
+nav bars
+use example code and piece it together
+
+grid system
+lets us divide screen into  smaller chunks
+elements side by side until you reach tablet size and then they go vertical
+12 columns
+needs to be in div with container class
+div class=row
+col-lg-6 - half of screen
+
+3 sizes
+xs, sm, md, lg
+look at doc for explanation when each is visible
+col-lg-1 col-md-2
+if lg and md same you can just use md not lg
+
+nesting
+can add another row within a column
+
+unsplash photo source
+
+image gallery
+
+only need one row for items that will span multiple rows
