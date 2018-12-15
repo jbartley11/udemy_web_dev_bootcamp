@@ -14,15 +14,31 @@
         td {
             width: 100px;
             height: 100px;
-            background:pink;
+            /*background:pink;*/
+            border-bottom: 4px black solid;
         }
         td:nth-of-type(2) {
             border-left: 4px black solid;
             border-right: 4px black solid;
         }
+
+        tr:nth-of-type(3) td{
+            border-bottom: none;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
+    <h1>Tic Tac Toe</h1>
+
     <table>
         <tr>
             <td></td>
