@@ -54,3 +54,7 @@ unsplash photo source
 image gallery
 
 only need one row for items that will span multiple rows
+
+navbar-fixed-top
+
+use inspector to get specific tag to overwrite default bootstrap colors

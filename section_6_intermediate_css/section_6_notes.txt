@@ -51,11 +51,8 @@ top right bottom left
 top bottom
 center 0 auto
 
-<<<<<<< HEAD
 to get multiple block level items on the same row
 float: left;
-||||||| merged common ancestors
-=======
 should only have one h1 in page
 
 use combination of max-width and width
@@ -63,4 +60,3 @@ max-width: 700px width 80%
 
 rem for font size
 relative like em, but to root element not parent
->>>>>>> ea32c453c56770fb99fc1f022455f8d0de7c57f3

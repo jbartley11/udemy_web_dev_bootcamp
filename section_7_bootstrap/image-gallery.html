@@ -5,12 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Should put style in separate file -->
+    <style type="text/css">
+        body {
+            padding-top: 70px;
+        }
+        .jumbotron {
+            color: #2c3e50;
+        }
 
+        .navbar-inverse {
+            background: #2c3e50;
+        }
+        
+        .navbar-inverse .navbar-nav>li>a {
+            color: white;
+        }
+
+        .navbar-inverse .navbar-brand {
+            color: white;
+        }
+
+    </style>
 
     <title>Image Gallery</title>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
@@ -19,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">IMGS</a>
+                <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-nav-demo">
                 <ul class="nav navbar-nav">
@@ -35,7 +56,7 @@
     </nav>
     <div class="container">
         <div class="jumbotron">
-            <h1>The Image Gallery</h1>
+            <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
             <p>A bunch of images, woo</p>
         </div>
 
@@ -91,8 +112,9 @@
   
 
 <!-- Scripts  -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
 
 </body>
 </html>
