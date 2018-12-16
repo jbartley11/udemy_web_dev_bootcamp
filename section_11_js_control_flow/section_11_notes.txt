@@ -1,0 +1,80 @@
+boolean logic
+
+comparison operators
+> >= < <= 
+== != value, string and number will be true
+=== !== value and type, string and number will not be true
+
+true == "1" or 1
+false == 0
+null == undefined
+NaN != NaN
+
+logical operators
+&& and
+|| or
+! not
+
+conditionals
+if (age < 18) {
+    console.log("Sorry, you can't enter")
+}
+else if (age < 21) {
+    console.log("You can enter, but not drink")
+}
+else {
+    console.log("you can enter and drink")
+}
+
+guessing game
+Number(guess) - converts string to number
+typeof
+
+loops
+DRY: Don't Repeat Yourself
+
+while(condition) {
+    // code block
+}
+
+how to print 1-5 in console
+var count = 1;
+
+while(count < 6) {
+    console.log("count is: " + count);
+    count++;
+}
+
+print each character in a string
+var str = "hello";
+var count = 0;
+
+while(count <str.length) {
+    console.log(str[count]);
+    count++;
+}
+
+if you don't know how many times it'll need to run
+while variable equals something
+
+test using alert("connected");
+
+str.indexOf(letter or substring)
+returns starting index
+
+while(answer.indexOf("yes") === -1)
+-1 means it wasn't found in string
+
+for loop
+for (init; condition; step) {
+    //run code
+}
+
+for (var count=0; count<6; count++) {
+    console.log(count);
+}
+
+var str = "hello";
+for(var i=0; i<str.length; i++) {
+    console.log(str[i]);
+}
