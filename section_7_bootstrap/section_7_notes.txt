@@ -58,3 +58,17 @@ only need one row for items that will span multiple rows
 navbar-fixed-top
 
 use inspector to get specific tag to overwrite default bootstrap colors
+
+font awesome
+has more glyphs
+add cdn link
+
+need to load jquery first
+
+text-shadow
+
+font awesome
+
+use this to make sure bootstrap works correctly on mobile devices
+
+<meta name="viewport" content="width=device-width, initial-scale=1">

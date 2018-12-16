@@ -1,0 +1,68 @@
+changes from 3 to 4
+there is a doc that explains the changes
+
+4 is built on flexbox
+switched from px to rem
+global font size is 16px
+grid system sizes
+xs, sm, md, lg, xl
+
+utility classes
+help you with spacing
+
+dropped icon fonts
+octicons, font awesome
+
+pull css from cdn
+
+add js scripts, ensure proper order
+
+spacing utilities
+propertysides-size
+pt-1 - padding top 1 
+mb-3 - margin bottom 3
+
+breakpoints
+screen sizes - 5 different ones
+also propertysides-breakpoint-size
+
+p-xl-5 - padding xl 5
+p-sm-5 above small be sized 5
+
+there is no xs
+p-xs-0 would be just p-0
+
+navbar changes
+v3 doesn't give much control when it collapses
+v4 you can set when it expands
+.navbar-expand-{breakpoint}
+
+navbar light or dark
+only affects text color you now have to set bg-light, or other
+
+display utility
+hidden and visible in v3
+now you have d-{value} for xs
+look up doc for values - none, block, inline, table
+d-{breakpoint}-{value}
+to hide at xl d-xl-none
+to hide at xs up to md, then display at large
+class="d-none d-lg-block"
+
+lorem60 - 60 words of lorem
+
+flexbox and layout
+d-flex - display item as flex
+can change left to right to right to left
+
+push content to other side
+justify-content-end, can also center
+between - separates items with available space
+top to bottom align-items-top
+
+part 2
+direction of flexbox
+flex-row-reverse
+flex-column - goes into rows
+
+flexbox and navs

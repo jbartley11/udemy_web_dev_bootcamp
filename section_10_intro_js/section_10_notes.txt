@@ -1,0 +1,45 @@
+chrome console
+where you write the code
+
+primitives
+5 of them
+numbers, strings, booleans, null and undefined
+
+//numbers 4, 9.3 -10
+string "Hi"
+True/False for booleans
+
+strings
+concat with +
+use \ to escape "
+backslash within string \\
+"hello".length property
+
+"hello"[2] get 3rd character
+zero-indexed
+
+variables
+var yourVariableName = yourValue;
+use camelCase
+
+Null and undefined
+
+var name;
+we declare it but never assign a value to it it is undefined
+null is defined
+currentPlayer = null;
+
+useful built-in methods
+alert("Message")
+prompt("Ask question")
+console.log("Message")
+
+// one line comment
+/* multiline */
+
+clear() - clears console
+
+write separate js file
+script.js
+reference it using script tag
+src="script.js"
