@@ -1,0 +1,57 @@
+function doSomething() {
+    console.log("Hello World!");
+}
+
+doSomething();
+
+must declare first then call it later
+
+arguments
+function doSomething(argmuent) {
+    return argument;
+}
+
+checkCredentials("username", "password")
+
+isEven()
+if(num % === 0) {
+    return true;
+}
+
+or
+return num % 2 === 0; //returns t/f 
+
+factorial
+var result = 1;
+
+for(var=2; i <=num; i++) {
+    result = result * i;
+    // or use *=
+}
+return result;
+
+replace - with _
+str.replace(/-/g, "_");
+
+SCOPE
+context that code is executed in 
+can assign same varabile name in function as global 
+it will remain two separate variables, one only living in function
+
+var num = 100;
+function doSomething() {
+    var num = 1000;
+    console.log(num);
+}
+doSomething() will log 1000
+but console.log(num) will log 100
+
+higher order functions
+take another function as input or result in another function
+setInterval(function, interval_in_ms)
+don't input function()
+
+can do anonymous function if you don't need to repeat it anywhere else
+setInterval(function(){
+    console.log("This is an anonymous function");
+}, 2000);

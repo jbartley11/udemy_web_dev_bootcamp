@@ -1,0 +1,47 @@
+var arrayName = ["value1", "value2"];
+
+zero-indexed
+arrayName[0]
+
+create blank array
+var empty = [];
+var empty = new Array();
+
+length property
+array.length
+
+last item
+last = arrayName[arrayName.length -1]
+
+add to end of array
+arrayName.push("newValue");
+
+remove last value
+arrayName.pop();
+
+remove first item
+arrayName.shift();
+
+add to beginning of array
+arrayName.unshift("banana");
+
+find index of item
+fruits.indexOf("Banana")
+
+remove item by index
+fruits.splice(pos, 1);
+
+nested arrays
+array[0][3]; just like python
+
+array iteration
+
+for loop
+for(var i = 0; i < array.length; i++){
+    console.log(array[i]);
+}
+
+foreach
+arrayName.forEach(function(item, index, array){
+    console.log(item, index);
+})
