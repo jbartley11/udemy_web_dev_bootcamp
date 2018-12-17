@@ -1,0 +1,113 @@
+JS Objects
+have no order
+key:value pairs
+
+model a person
+var person = {
+    name: "Cindy",
+    age: 32,
+    city: "Missoula"
+};
+
+getting data out of Object
+person["name"]; // bracket
+person.name; // dot notation
+
+dot notation will not work if first character of property is a number
+or spaces
+can't use variable with string in dot, can with brackets
+
+update data
+person.name = "Paul";
+
+creating Objects
+declare a blank object and add
+var person = {};
+or - var person = new Object();
+person.name = "Steve";
+person.age = 33;
+
+or - do it all at declaration
+
+can hold various different data types
+array within object
+array of post which will have objects within it
+
+var posts = [{
+    title: "Cats suck",
+    author: "Colt",
+    comments: ["cool", "boo"]
+}, {
+    title: "Cats rule",
+    author: "Cat lover",
+    comments: ["yay", "woo"]
+
+}]
+
+underscore can lead key name
+
+var movies = [
+    {
+        title: "In Bruges",
+        hasWatched: true,
+        rating: 5
+    },
+    {
+        title: "Frozen",
+        hasWatched: false,
+        rating: 4.5
+    }
+]
+
+movies.forEach(function(movie){
+    var result = "You have ";
+    if(movie.hasWatched){
+        result += "watched ";
+    } else {
+        result += "not seen ";
+    }
+    result += "\"" + movie.title + "\" - ";
+    result += movie.rating + " stars";
+    console.log(result);
+})
+
+object methods
+var obj = {
+    name: "Chuck",
+    age: 43,
+    friends: ["bob", "tina"],
+    add: function(x,y){
+        return x+y;
+    }
+}
+
+obj.add(10,15);
+
+console.log()
+console is object
+log is method
+
+objects help keep code organized
+
+speak function for cats and dogs
+namespace collision
+
+dogSpace = {};
+dogSpace.speak = function () {
+    return "Woof!";
+}
+
+underscore.JS
+_.reduce()
+
+this
+use when defining method that uses other values inside object
+
+comments = {}
+comments.data = ["one", "two"]
+comments.print = function(){
+    this.data.forEach(function(el){
+        console.log(el);
+    });
+}
+comments.print()

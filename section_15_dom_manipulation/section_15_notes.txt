@@ -1,0 +1,99 @@
+include script down at bottom of body tag
+html will need to load before js is run
+
+patatap.com
+
+DOM - document object model
+interface between js, html and css
+model of page elements
+
+go into console and type document
+ or console.dir(document)
+
+hard to master everything in DOM
+
+select an element then manipulate it 
+
+var h1 = document.querySelector("h1");
+h1.style.color = "pink";
+
+blinking 
+var body = document.querySelector("body");
+var isBlue = false;
+
+setInterval(function(){
+    if (isBlue) {
+        body.style.background = "white";
+    } else {
+        body.style.background = "blue";
+    }
+    isBlue = !isBlue;
+}, 1000);
+
+DOM Selectors
+
+document.URL
+document.links
+document.body
+document.head
+returns these items from document in an array like object
+but you cannot use it like an array
+must use for instead of foreach
+
+store in variable, enter variable name into console to see items selector has returned
+
+5 main methods
+document.getElementById("highlight");
+document.getElementsByClassName("bolded");
+
+get all elements by tag name, li, ul, h1, body, etc...
+document.getElementsByTagName("li");
+
+newer method, can do tag, class, or id
+uses css selector #highlight, .class
+only gives us the first one
+document.querySelector("#hightlight")
+
+like queryselector but returns all
+document.querySelectorAll("h1")
+
+manipulating style
+must put values in string
+var tag = document.getElementById("highlight";
+tag.style.color = "blue";
+tag.style.border = "5px solid pink";
+
+separation of concerns
+don't want too much crossover
+structure, presentation, behavior
+best practice would be to set it in css then use js to toggle it on/off
+
+in css:
+.some-class {
+    color: blue;
+    border: 16px solid red;
+}
+in js:
+var tag = document.getElementById("highlight");
+tag.classList.add("some-class");
+.remove
+.toggle
+
+textContent
+returns only text, no html tags
+var tag = document.querySelector("p");
+tag.textContent; // retrieves textContent
+tag.textContent = "blah blah blah"; // set textContent
+
+innerHTML - returns all html code within element
+can set too
+tag.innerHTML
+
+Attributes
+href, source for image, contained in quotes
+link = document.querySelector("a");
+link.getAttribute("href");
+link.setAttribute("href","www.dogs.com");
+must use http://www.corgis.com
+
+srcset attribute
