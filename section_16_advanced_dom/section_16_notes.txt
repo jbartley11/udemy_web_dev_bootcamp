@@ -1,0 +1,37 @@
+Events
+clicking, hovering, drag drop, press key
+allows us to make changes to the dom
+
+the process
+select an element then add an event listener
+
+var button = document.querySelector("button");
+button.addEventListener("click", function() {
+    console.log("SOMEONE CLICKED BUTTON!");
+});
+
+element.addEventListener(type, functionToCall);
+first argument is type of event - click
+second - is function to be called
+
+can have more than one listener on element
+alert and color change
+
+add listeners to each li
+var lis = document.querySelectorAll("li");
+for(var i = 0; i < lis.length; i++) {
+    lis[i].addEventListener("click", function(){
+        this.style.color = "pink";
+    })
+}
+
+use this to point to current element that you are attaching a listener to
+can use a named function
+
+
+how to construct a project
+file structure
+get html set up
+add ids and classes
+get items needed in js
+test connectivity using alerts and console.log
