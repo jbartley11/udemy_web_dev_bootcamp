@@ -35,3 +35,9 @@ get html set up
 add ids and classes
 get items needed in js
 test connectivity using alerts and console.log
+
+
+types of event listeners
+mdn
+mouseover
+mouseout
