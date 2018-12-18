@@ -1,1 +1,7 @@
 use backgroundColor not background, background does not work with firefox, still accurate?
+
+refactor
+look for repeated code
+easy and hard buttons
+remove ids and group like items by class
+creation functions and loop over similiar classes
