@@ -1,0 +1,41 @@
+jquery is a dom manipulation library
+library
+selecting elements, handlers
+useful methods for:
+selecting elements, manipulating them, create elements
+add event listeners, animate elements, add effects,
+make http requests(ajax)
+
+youmightnotneedjquery.com
+everything you can do in jquery you can do without it
+you have to decide what's best/quickest
+
+for:
+clearer
+easy to useful
+cross-browser support
+ajax
+large community of users
+
+against:
+you can do it all
+unnecessary dependency
+performance - including all methods
+lot's of people moving away from it
+
+adding jquery
+local or cdn
+locally store in lib folder
+local faster
+
+content delivery network
+// select element with trigger id, add event listener for click
+$('#trigger').click(function(){
+    // change background of body to yellow
+    $('body').css("background", "yellow");
+    // fade all imgs out in 3 seconds
+    $("img").fadeOut(3000, function() {
+        // remove all images from page
+        $(this).remove();
+    });
+});
