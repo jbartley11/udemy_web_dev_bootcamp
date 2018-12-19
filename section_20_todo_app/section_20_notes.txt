@@ -1,0 +1,20 @@
+test connections to js - alert
+css - body purple
+jquery
+
+folder structure
+todo
+-index.html
+-assets
+--css
+---main.css
+--js
+---app.js
+---lib
+----jquery
+
+
+create an ugly list that functions then style it
+use text placeholder for delete button in span
+
+shift +opt +i adds cursor to and click

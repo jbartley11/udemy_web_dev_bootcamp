@@ -24,6 +24,7 @@ performance - including all methods
 lot's of people moving away from it
 
 adding jquery
+add to head
 local or cdn
 locally store in lib folder
 local faster
@@ -39,3 +40,57 @@ $('#trigger').click(function(){
         $(this).remove();
     });
 });
+
+vanilla js 
+
+selecting elements
+use $ to select anything
+works like querySelectorAll
+$('img') .sale, #bonus
+returns a list 
+
+CSS method
+.css(property, value)
+
+$("h1").css("color", "yellow");
+vs
+document.querySelector("h1").style.color = "orange"'
+
+can define styles in object then pass that to css method
+var styles = {
+    backgroundColor: "pink",
+    fontWeight: "bold"
+};
+$("#special").css(styles);
+
+don't have to loop through can use one selector and apply styles to all with one line 
+vanilla, have to select all, loop through, change each one individually
+
+changing text and html
+val, text, attr, html, addClass, removeClass, toggleClass
+jquery documentation for methods
+
+text
+works like textContent
+$("h1").text(); // returns current value
+$("h1").text("New Text"); // assigns new value
+
+change li's
+$('li').text("li q, li 2, li 3");
+
+.html
+works just like innerHTML
+
+.attr 
+attribute
+get or set 
+getter or setter
+$("img").attr("title");
+$("img").attr("title", "new title");
+
+use built in css selectors to select nth of type
+
+.val
+extracts value
+
+addClass, remove, toggle

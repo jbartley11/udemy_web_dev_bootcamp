@@ -1,0 +1,66 @@
+click, keypress, on
+can use on 99% of time
+
+Click Events
+events documentation
+$("#submit).click(function(){
+    console.log("Click!");
+})
+
+this doesn't work in jquery
+must use $(this)
+
+$("button").click(function(){
+    $(this).css("background", "blue");
+})
+
+keypress
+keydown + keyup 
+Shift + a are two separate keydown and keyup events
+keypress returns A
+
+use on text input
+
+event object - has everything about the keypress event
+which - shows code of character pressed
+event can be called e 
+
+$("input").keypress(function(event){
+    if(event.which === 13) {
+        alert("you hit enter!");
+    }
+})
+
+on
+what you'll use 99% of time
+acts like addEventListener
+$("#submit").on("click", function() {
+    console.log("you clicked");
+})
+
+why use? 
+click() will only add listeners for existing elements
+on() will add listeners for all potential future elements
+
+jquery effects
+fading and slides
+
+fadeout
+can use string of speed or give ms 
+$("#clickme").click(function(){
+    $("#book").fadeOut("slow", function(){
+        // animation complete
+        $(this).remove();
+    })
+})
+
+$("book").fadeOut(3000);
+
+fadeIn
+fadeToggle
+
+sliding
+hidden until event
+slidedown - element appears
+slideup - element disappears
+remove to remove from page if you don't need element anymore
