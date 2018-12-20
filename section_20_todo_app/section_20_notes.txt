@@ -18,3 +18,5 @@ create an ugly list that functions then style it
 use text placeholder for delete button in span
 
 shift +opt +i adds cursor to and click
+
+uigradients.com
