@@ -6,7 +6,7 @@ $('ul').on("click", "li", function(){
     $(this).toggleClass("completed")});
 
 // remove item
-$('ul').on("click", "span", function(){
+$('ul').on("click", "span", function(event){
     // need to remove li
     // since span is child of li we need to remove parent
     $(this).parent().fadeOut(500, function(){
@@ -23,8 +23,13 @@ $("input[type='text']").keypress(function(event){
         // get value
         var task = $(this).val();
         // make li
-        $('ul').append("<li><span>X</span> " + task + "</li>")
+        $('ul').append("<li><span class='trash-span'><i class='fas fa-trash'></i></span> " + task + "</li>")
         // clear input
         $(this).val("");
     }
 });
+
+// toggle input
+$("#plus-span").on("click", function(){
+    $("input[type='text']").fadeToggle();
+})

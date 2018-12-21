@@ -20,3 +20,10 @@ use text placeholder for delete button in span
 shift +opt +i adds cursor to and click
 
 uigradients.com
+
+css file organization
+order by order on page
+or order things by specificity
+body, then elements, li, spans, uls, h1
+the classes, then ids
+
