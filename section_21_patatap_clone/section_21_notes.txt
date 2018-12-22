@@ -1,0 +1,7 @@
+paper.js - helps with animations
+howler - plays music
+neuronal-synchrony - github with the sounds from patatap
+
+start web server using python
+python 3 
+python -m http.server
